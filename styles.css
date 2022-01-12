@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin: auto;
+}
+.content {
+  padding: 10px;
+  border: 1px solid black;
+  display: none;
+}
+.empty {
+  width: 100px;
+}
+
+img {
+  height: 500px;
+  width: 900px;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 10px;
+  border: 1px solid red;
+  margin-top: -22px;
+}
+.prev {
+  left: 22%;
+}
+.next {
+  right: 22%;
+}
